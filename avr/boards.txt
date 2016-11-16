@@ -1,0 +1,45 @@
+menu.clock=Clock
+
+attiny13.name=ATtiny13A
+attiny13.upload.tool=avrdude
+attiny13.upload.using=arduino:usbasp
+attiny13.upload.maximum_size=1024
+attiny13.upload.speed=19200
+attiny13.maximum_data_size=64
+attiny13.bootloader.tool=avrdude
+attiny13.bootloader.high_fuses=0xff
+attiny13.bootloader.unlock_bits=0x3f
+attiny13.bootloader.lock_bits=0x3f
+attiny13.build.mcu=attiny13
+attiny13.build.core=core13
+attiny13.build.board=AVR_ATTINY13
+
+########################
+
+attiny13.menu.clock.int128=128kHz (internal)
+attiny13.menu.clock.int128.bootloader.low_fuses=0x7b
+attiny13.menu.clock.int128.build.f_cpu=128000L
+
+#######################
+
+attiny13.menu.clock.int600=600kHz (internal 4.8/8)
+attiny13.menu.clock.int600.bootloader.low_fuses=0x69
+attiny13.menu.clock.int600.build.f_cpu=600000L
+
+#######################
+
+attiny13.menu.clock.int1=1.2MHz (internal 9.6/8)
+attiny13.menu.clock.int1.bootloader.low_fuses=0x6a
+attiny13.menu.clock.int1.build.f_cpu=1200000L
+
+#######################
+
+attiny13.menu.clock.int4=4.8MHz (internal)
+attiny13.menu.clock.int4.bootloader.low_fuses=0x79
+attiny13.menu.clock.int4.build.f_cpu=4800000L
+
+#######################
+
+attiny13.menu.clock.int9=9.6MHz (internal)
+attiny13.menu.clock.int9.bootloader.low_fuses=0x7a
+attiny13.menu.clock.int9.build.f_cpu=9600000L
