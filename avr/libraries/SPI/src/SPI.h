@@ -2,7 +2,7 @@
  * Minimal Software SPI for ATtiny13
  * Defaults to SPI mode 0, msb-first.
  *
- * MIT/X license © 2016 Daniel Lima <danielm@tinyhub.tk>
+ * MIT/X license © 2016 Daniel M. Lima
  */
 
 #ifndef _SPI_H_INCLUDED
